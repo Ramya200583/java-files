@@ -1,0 +1,17 @@
+create table student( 
+    id int,
+    roolno int,
+    age int,
+    marks int,
+    name varchar(50)
+  );
+insert into student(id,roolno,age,marks,name) value (1,21,18,90,"arjun"),(2,22,18,82,"karan"),(3,23,19,80,"vijay"),(4,24,20,80,"akash");
+select * from student;
+select * from student where marks>80;
+select * from student  limit 2;
+select id,marks from student;
+select avg(marks) from student;
+select max(marks) from student;
+select min(marks) from student;
+select count(marks) from student;
+
